@@ -7,10 +7,9 @@
 
 import Foundation
 
-let weeknd = Musicians()
+let weeknd = Musicians(nameInit: "Abel Tesfaye", ageInit: 33, typeInit: .Vocalist)
 
-weeknd.age = 33
-weeknd.name = "Abel Tesfaye"
 
-print(weeknd.name)
+let drake = SuperMusician(nameInit: "Aubrey", ageInit: 36, typeInit: .Vocalist)
+drake.sing()
 

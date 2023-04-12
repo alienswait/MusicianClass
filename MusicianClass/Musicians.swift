@@ -7,17 +7,33 @@
 
 import Foundation
 
+enum MusicianType {
+    case Vocalist
+    case Drummer
+    case Bassist
+    case LeadGuitar
+}
+
+
 class Musicians {
     
     //Property
     var name : String = ""
     var age : Int = 0
+    var type: MusicianType
     
     // Initializer(Constructure)
-    init() {
+    init(nameInit: String, ageInit: Int, typeInit: MusicianType) {
        
-        print("Musician created")
+        name = nameInit
+        age = ageInit
+        type = typeInit
+    }
+    
+    
+    func sing(){
         
+        print("Wicked Games")
     }
     
     

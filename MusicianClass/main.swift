@@ -7,5 +7,10 @@
 
 import Foundation
 
-print("Hello, World!")
+let weeknd = Musicians()
+
+weeknd.age = 33
+weeknd.name = "Abel Tesfaye"
+
+print(weeknd.name)
 
